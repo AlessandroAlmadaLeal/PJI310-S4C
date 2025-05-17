@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="..\static\favicon.ico">
+    <link rel="stylesheet" href="..\static\style.css">
+    <script src="..\static\script.js"></script>
+    <title>Apontamento</title>
+</head>
+<body>
+    <h1>Reservar assento</h1>
+
+    <form action="#" class="form-apontamento" method="post">
+        <div class="bipartido">
+            <div class="conteudo">
+                <div>
+                    <label for="funcionario">Colaborador:</label>
+                    <select id="funcionario" name="funcionario" required>
+                        <option value="" disabled selected>Selecione o funcionário</option>
+                        <option value="funcionario1">Funcionário 1</option>
+                        <option value="funcionario2">Funcionário 2</option>
+                        <option value="funcionario3">Funcionário 3</option>
+                        </select>
+                </div>
+
+                <div>
+                    <label for="data_reserva">Dia:</label>
+                    <input type="date" id="data_reserva" name="data_reserva" required>
+                </div>
+            </div>
+            
+            <div class="conteudo">    
+                <h4>Selecione seu assento:</h4>
+                <table class="assentos-table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="radio" id="d01" name="assento" value="D01">
+                                <label for="d01">D01</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="d02" name="assento" value="D02">
+                                <label for="d02">D02</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e03" name="assento" value="E03">
+                                <label for="e03">E03</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e04" name="assento" value="E04">
+                                <label for="e04">E04</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" id="d05" name="assento" value="D05">
+                                <label for="d05">D05</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="d06" name="assento" value="D06">
+                                <label for="d06">D06</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e07" name="assento" value="E07">
+                                <label for="e07">E07</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e08" name="assento" value="E08">
+                                <label for="e08">E08</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" id="d09" name="assento" value="D09">
+                                <label for="d09">D09</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="d10" name="assento" value="D10">
+                                <label for="d10">D10</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e11" name="assento" value="E11">
+                                <label for="e11">E11</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e12" name="assento" value="E12">
+                                <label for="e12">E12</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" id="d13" name="assento" value="D13">
+                                <label for="d13">D13</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="d14" name="assento" value="D14">
+                                <label for="d14">D14</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e15" name="assento" value="E15">
+                                <label for="e15">E15</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e16" name="assento" value="E16">
+                                <label for="e16">E16</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" id="d17" name="assento" value="D17">
+                                <label for="d17">D17</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="d18" name="assento" value="D18">
+                                <label for="d18">D18</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e19" name="assento" value="E19">
+                                <label for="e19">E19</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="e20" name="assento" value="E20">
+                                <label for="e20">E20</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <button value="m3">Reservar Assento</button>
+    </form>
+</body>
+</html>

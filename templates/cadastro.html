@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="..\static\favicon.ico">
+    <link rel="stylesheet" href="..\static\style.css">
+    <script src="..\static\script.js"></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de colaborador</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required>
+        </div>
+
+        <div>
+            <label for="coletivo">Turno:</label>
+            <select id="coletivo" name="coletivo" placeholder="Selecione um turno">
+                <option value="">Selecione um turno...</option>
+                <option value="coletivo_a">Turno A</option>
+                <option value="coletivo_b">Turno B</option>
+                <option value="coletivo_c">Turno C</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="coletivo" >Coletivo Associado:</label>
+            <select id="coletivo" name="coletivo" placeholder="Selecione um coletivo">
+                <option value="">Selecione um coletivo...</option>
+                <option value="coletivo_a">Coletivo A</option>
+                <option value="coletivo_b">Coletivo B</option>
+                <option value="coletivo_c">Coletivo C</option>
+            </select>
+        </div>
+
+        <button value="m1">Cadastrar</button>
+    </form>
+</body>
+</html>

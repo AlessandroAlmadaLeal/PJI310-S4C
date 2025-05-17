@@ -1,0 +1,196 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha o conteúdo ao topo para telas maiores */
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 20px; /* Adiciona um pouco de espaço no topo */
+    box-sizing: border-box; /* Garante que o padding não afete a largura/altura total */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos do formulário (Cadastro) */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Largura para o formulário de cadastro */
+    box-sizing: border-box; /* Para que o padding não aumente a largura total */
+    margin-bottom: 30px; /* Adiciona um pouco de espaço abaixo do formulário de cadastro */
+}
+
+/* Estilos dos labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Estilos dos campos de input e select */
+input[type="text"],
+select,
+input[type="date"] { /* Inclui o input de data */
+    width: calc(100% - 12px); /* Ajuste para o padding */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para que o padding não aumente a largura total */
+    font-size: 16px;
+}
+
+/* Estilos do botão */
+button[type="submit"] {
+    background-color: #5cb85c; /* Verde */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 50%; /* Define uma largura menor */
+    max-width: 200px; /* Evita que o botão fique muito grande */
+    box-sizing: border-box;
+    margin: 10px auto 0 auto; /* Centraliza o botão horizontalmente */
+    display: block; /* Garante que o margin auto funcione */
+    text-align: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Espaçamento entre os elementos do formulário (Cadastro) */
+form > div {
+    margin-bottom: 15px;
+}
+
+/* Estilos específicos para a página de apontamento */
+.assentos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Adiciona espaço abaixo da tabela de assentos */
+}
+
+.assentos-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd; /* Cor da borda um pouco mais clara */
+}
+
+.assentos-table input[type="radio"] {
+    margin-right: 5px;
+}
+
+.assentos-table label {
+    font-weight: normal; /* Remove o negrito dos labels dos assentos */
+    color: #333;
+    cursor: pointer; /* Indica que o label também é clicável */
+}
+
+.assentos-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Aumenta a largura para acomodar a tabela */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza a tabela dentro do container */
+}
+
+.assentos-container h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilo para o formulário de apontamento */
+.form-apontamento {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Largura para o formulário de apontamento */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.form-apontamento > div {
+    margin-bottom: 15px;
+}
+
+.bipartido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo {
+    width: 50%;
+}
+
+/* Estilos para a tela de validação do cartão */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Reduzi um pouco a largura */
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilos do botão */
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    max-width: 200px; /* Limita a largura máxima do botão */
+    width: auto; /* Permite que o botão se ajuste ao conteúdo */
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.form-index {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os botões */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-index {
+    width: 200px;
+}
